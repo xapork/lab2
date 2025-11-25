@@ -10,7 +10,7 @@ public class Marill extends Azurill{
 
         Amnesia amnesia = new Amnesia(0,0 );
 
-        this.setMove(amnesia);
+        this.addMove(amnesia);
 
 
     }

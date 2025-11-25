@@ -5,12 +5,11 @@ import movess.azurill.*;
 public final class Azumarill extends Marill{
     public Azumarill(java.lang.String name, int level) {
         super(name, level);
-        this.setType(Type.WATER, Type.FAIRY);
         this.setStats(100, 50, 80, 60, 80, 50);
 
         Superpower superpower = new Superpower(120, 100);
 
-        this.setMove(superpower);
+        this.addMove(superpower);
 
 
     }
